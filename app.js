@@ -1,27 +1,23 @@
-const faveNumber1 = 19; 
+const firstFavNum = 19;
 
-const faveNumber2 = 13; 
+const secondFavNum = 13;
 
-const sum = faveNumber1 + faveNumber2; 
+const additionResult = firstFavNum + secondFavNum;
 
-const difference = faveNumber1 - faveNumber2; 
+const subtractionResult = firstFavNum - secondFavNum;
 
-const product = faveNumber1 * faveNumber2;
+const multiplicationResult = firstFavNum * secondFavNum;
 
-const quotient = faveNumber1 / faveNumber2; 
+const divisionResult = firstFavNum / secondFavNum;
 
-const remainder = faveNumber1 % faveNumber2; 
+const modulusResult = firstFavNum % secondFavNum;
 
-const power = faveNumber1 ** faveNumber2 
+const exponentiationResult = firstFavNum ** secondFavNum;
 
-console.log(sum); 
+console.log(additionResult);
+console.log(subtractionResult);
+console.log(multiplicationResult);
+console.log(divisionResult);
+console.log(modulusResult);
+console.log(exponentiationResult);
 
-console.log(difference); 
-
-console.log(product); 
-
-console.log(quotient); 
-
-console.log(remainder); 
-
-console.log(power); 
